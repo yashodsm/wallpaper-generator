@@ -1,7 +1,3 @@
-This updated `README.md` incorporates the details from your `generate_wallpaper.sh` script, providing a more complete and accurate overview of your project's capabilities.
-
----
-
 # 🌄 Dynamic Linux Wallpaper Generator
 
 Transform your Linux desktop with dynamic wallpapers that display real-time system information! This project includes `generate_wallpaper.sh` to create custom wallpapers by overlaying system details onto a template image, and `setup-cron.sh` to automate these updates, ensuring your desktop always looks fresh and informative.
