@@ -32,7 +32,7 @@ These instructions will help you get your dynamic wallpaper generator up and run
 ### Installation
 
 1.  **Clone the Repository or Place Scripts:**
-    It's recommended to place both `generate_wallpaper.sh` and `setup-cron.sh` in a dedicated directory in your home folder. For example:
+    It's recommended to place both `generate_wallpaper.sh` and `configure_wallpaper_cron.sh` in a dedicated directory in your home folder. For example:
 
     ```bash
     mkdir -p "$HOME/wallpaper-generator"
@@ -40,7 +40,7 @@ These instructions will help you get your dynamic wallpaper generator up and run
     # Download the scripts into this directory
     # For example, using curl:
     # curl -O https://raw.githubusercontent.com/yashodsm/wallpaper-generator-linux/main/generate_wallpaper.sh
-    # curl -O https://raw.githubusercontent.com/yashodsm/wallpaper-generator-linux/main/setup-cron.sh
+    # curl -O https://raw.githubusercontent.com/yashodsm/wallpaper-generator-linux/main/configure_wallpaper_cron.sh
     ```
 
 2.  **Add Your Template Wallpaper:**
@@ -51,7 +51,7 @@ These instructions will help you get your dynamic wallpaper generator up and run
 
     ```bash
     cd "$HOME/wallpaper-generator"
-    chmod +x generate_wallpaper.sh setup-cron.sh
+    chmod +x generate_wallpaper.sh configure_wallpaper_cron.sh
     ```
 
 ---
@@ -74,7 +74,7 @@ Execute the setup script from your terminal:
 
 ```bash
 cd "$HOME/wallpaper-generator" # Navigate to your script directory
-./setup-cron.sh
+./configure_wallpaper_cron.sh
 ```
 
 The script will guide you through the setup process:
